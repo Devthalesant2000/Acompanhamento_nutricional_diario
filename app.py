@@ -12,8 +12,8 @@ st.title("🔐 Google Sheets privado no Streamlit")
 st.write("Lendo dados de uma planilha protegida usando Service Account.")
 
 # 👉 Coloque aqui o ID da sua planilha (o que aparece na URL entre /d/ e /edit)
-SPREADSHEET_ID = "COLOQUE_SEU_ID_AQUI"
-SHEET_NAME = "Página1"  # troque pelo nome real da aba (ex: 'Base', 'Dados', etc.)
+SPREADSHEET_ID = "1Der-KiDRDwwxApcOREQm0zCyBJhBIdB6y2nZlhJmaIY"
+SHEET_NAME = "proteinas"  # troque pelo nome real da aba (ex: 'Base', 'Dados', etc.)
 
 # Scopes necessários para acessar o Sheets (apenas leitura)
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
